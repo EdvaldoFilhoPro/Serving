@@ -10,7 +10,7 @@
       <div class="row">
         <div class="col-xl-4 col-lg-5" data-aos="fade-up">
           <div class="content">
-            <?php
+          <?php
             if (is_active_sidebar('banner-card-main')) {
               dynamic_sidebar('banner-card-main');
             }
@@ -27,7 +27,7 @@
                   if (is_active_sidebar('banner01')) {
                     dynamic_sidebar('banner01');
                   }
-                  ?>
+                  ?> 
                 </div>
               </div>
               <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">

@@ -36,7 +36,7 @@
   <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?> >
+<body  >
 
   <!-- ======= Top Bar ======= -->
   <section id="topbar" class="d-none d-lg-block">
@@ -101,13 +101,16 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+  <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center">
+  
     <div class="container" data-aos="fade-in">
+    
      <?php
      if( is_active_sidebar('banner')){
        dynamic_sidebar('banner');
      }
      ?>
+  
       <!-- <div class="d-flex align-items-center">
         <i class="bx bxs-right-arrow-alt get-started-icon"></i>
         <a href="#about" class="btn-get-started scrollto">Get Started</a>
